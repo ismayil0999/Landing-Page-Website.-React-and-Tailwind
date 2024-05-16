@@ -12,7 +12,7 @@ function Sidebar(){
     <ContactInfo/>
     </div>
    <div className="w-[50%] max-[655px]:w-full flex items-center justify-center">
-   <div className="flex justify-center items-center max-[655px]:w-[50%] lg:w-[50%] lg:h-[30%] md:w-[70%] md:h-[45%] h-[35%] sm:w-[70%] sm:h-[45%] rotate-[5deg] hover:rotate-0 transition-all duration-500 border-[2px] border-[#FFD700] rounded-[20px]">
+   <div className="flex justify-center items-center max-[655px]:w-[50%] lg:w-[50%] lg:h-[30%] md:w-[70%] md:h-[45%] h-[35%] sm:w-[70%] sm:h-[45%] rotate-[5deg] hover:rotate-0 transition-all duration-500 border-[2px] border-[#8750f7] rounded-[20px]">
         <img src="./manlogo.png" className="w-full h-full object-cover rounded-[20px]" alt=""></img>
     </div>
    </div>

@@ -27,15 +27,15 @@ body {
   }
 }
 .position-text{
-    background: linear-gradient(to right, #FFD700 0%, #ffffff 100%);
+    background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
     -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 }
 .btn{
-  background: linear-gradient(to right, #FFD700 0%, #ebd8dd 100%);
+  background: linear-gradient(to right, #8750f7 0%, #ebd8dd 100%);
 }
 .btn:hover{
-  background: linear-gradient(to right, white 0%, #FFD700 100%);
+  background: linear-gradient(to right, white 0%, #8750f7 100%);
 }
 
 .service-box{
@@ -44,15 +44,15 @@ body {
 }
 
 .service-box:hover{
-  background: linear-gradient( 260deg, #000000 0%, #3d3939 100% );
+  background: linear-gradient( 260deg, #000000 0%, #8750f7 100% );
   color: black !important;
   transition: border 1s;
 }
-.experince-box{
+.experience-box{
   transition: 1s ease;
 }
-.experince-box:hover{
-  background: linear-gradient( 260deg, #000000 0%, #3d3939 100% );
+.experience-box:hover{
+  background: linear-gradient( 260deg, #000000 0%, #8750f7 100% );
 
 }
 .swiper-pagination{
@@ -62,21 +62,21 @@ body {
   background: rgb(255, 198, 9) !important;
 }
 ::-webkit-scrollbar {
-  width: 3px; /* Scroll bar genişliği */
+  width: 3px; 
 }
 
-/* Scroll barı track (arka plan) rengi */
+
 ::-webkit-scrollbar-track {
   background-color: #000000;
 }
 
-/* Scroll barı handle (kaydırma kolu) rengi */
+
 ::-webkit-scrollbar-thumb {
-  background-color: #e4b006;
-  border-radius: 5px; /* Opsiyonel: kaydırma kolu kenar yuvarlaklığı */
+  background-color: #8750f7;
+  border-radius: 5px; 
 }
 
-/* Scroll barı handle'ı (kaydırma kolu) hover durumu */
+
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }

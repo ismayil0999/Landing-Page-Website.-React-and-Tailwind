@@ -3,14 +3,14 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
+
 
 function Portfolio() {
-  // State to manage active category and filtered projects
+  
   const [activeCategory, setActiveCategory] = useState("Website");
   const [filteredProjects, setFilteredProjects] = useState([]);
 
-  // Categories and projects data
+
   const categories = ["Website", "Design", "App"];
   const projects = [
     { project_img: "./web1.png", project_url: "https://", category: "Website" },
@@ -19,29 +19,29 @@ function Portfolio() {
     { project_img: "./design2.jpg", project_url: "https://", category: "Design" }
   ];
 
-  // Filtering projects based on active category
+
   useEffect(() => {
     setFilteredProjects(projects.filter(project => project.category === activeCategory))
   }, [activeCategory])
 
-  // Function to filter projects based on category
+
   const filterProject = (category, index) => {
     setActiveCategory(category);
   }
 
   return (
     <div id='portfolio' className="flex flex-col gap-[30px] items-center justify-center pb-[70px]">
-      {/* Portfolio title */}
+  
       <div>
         <span className="position-text text-4xl w-full text-center flex justify-center font-bold">Portfolio</span>
       </div>
-      {/* Category filter buttons */}
+
       <div className='w-full flex gap-[20px] justify-center items-center'>
         {categories.map((category, index) => (
           <span
             key={index}
             onClick={() => { filterProject(category, index) }}
-            className={`text-white font-bold h-[30px] ${activeCategory === category ? "bg-yellow-600" : "none"} flex items-center justify-center rounded-[15px] w-[90px] transition-all duration-500`}
+            className={`text-white font-bold h-[30px] ${activeCategory === category ? "bg-[#8750f7]" : "none"} flex items-center justify-center rounded-[15px] w-[90px] transition-all duration-500`}
           >
             {category}
           </span>

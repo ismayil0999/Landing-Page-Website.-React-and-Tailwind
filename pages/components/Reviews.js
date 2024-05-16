@@ -1,11 +1,10 @@
-//Review Section component. You can edit Reviews section in this component
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import {Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 function Reviews(){
-    //Demo data for reviews. Change this data with own real review data
+
     const reviews=[
         {
             name:"Tim Bailey",
